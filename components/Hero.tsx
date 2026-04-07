@@ -3,11 +3,13 @@ import { personal } from "@/data";
 import FadeIn from "./FadeIn";
 import LinkedInIcon from "./LinkedInIcon";
 import GitHubIcon from "./GitHubIcon";
+import ParticlesBackground from "./ParticlesBackground";
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-20 px-6">
-      <div className="max-w-5xl mx-auto">
+    <section className="relative pt-32 pb-20 px-6 overflow-hidden">
+      <ParticlesBackground />
+      <div className="relative z-10 max-w-5xl mx-auto">
         <FadeIn>
           {personal.available && (
             <div className="inline-flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-400 mb-6 border border-neutral-200 dark:border-neutral-800 rounded-full px-3 py-1">
@@ -80,6 +82,7 @@ export default function Hero() {
           </div>
         </FadeIn>
       </div>
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent" />
     </section>
   );
 }
