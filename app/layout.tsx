@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(url),
   title: "Tomás Guzmán — Fullstack Developer",
   description:
-    "Fullstack developer with 7+ years of experience building web applications. Specializing in React, TypeScript, NestJS, and Laravel.",
+    "Fullstack developer specializing in React, TypeScript, NestJS, and Laravel.",
   openGraph: {
     title: "Tomás Guzmán — Fullstack Developer",
     description:
-      "Turning ideas into products, fast. 7+ years building fullstack web applications.",
+      "Turning ideas into products, fast.",
     url,
     siteName: "Tomás Guzmán",
     type: "website",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tomás Guzmán — Fullstack Developer",
     description:
-      "Turning ideas into products, fast. 7+ years building fullstack web applications.",
+      "Turning ideas into products, fast.",
   },
 };
 
