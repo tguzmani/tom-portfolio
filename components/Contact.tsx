@@ -12,7 +12,7 @@ export default function Contact() {
           <h2 className="text-2xl font-bold tracking-tight mb-4">
             Let&apos;s work together
           </h2>
-          <p className="text-neutral-600 dark:text-neutral-400 mb-8">
+          <p className="text-neutral-700 dark:text-neutral-400 mb-8">
             Have a project in mind? I&apos;d love to hear about it.
           </p>
         </FadeIn>
@@ -33,7 +33,7 @@ export default function Contact() {
               href={personal.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-500 hover:text-black dark:hover:text-white transition-colors"
+              className="text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <GitHubIcon size={20} />
             </a>
@@ -41,13 +41,13 @@ export default function Contact() {
               href={personal.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-500 hover:text-black dark:hover:text-white transition-colors"
+              className="text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <LinkedInIcon size={20} />
             </a>
             <a
               href={`mailto:${personal.email}`}
-              className="text-neutral-500 hover:text-black dark:hover:text-white transition-colors"
+              className="text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <Mail size={20} />
             </a>

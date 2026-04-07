@@ -25,14 +25,14 @@ export default function Experience() {
                     {exp.period}
                   </span>
                 </div>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-3">
+                <p className="text-sm text-neutral-700 dark:text-neutral-400 mb-3">
                   {exp.description}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {exp.tech.map((t) => (
                     <span
                       key={t}
-                      className="text-xs px-2 py-0.5 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400"
+                      className="text-xs px-2 py-0.5 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-700 dark:text-neutral-400"
                     >
                       {t}
                     </span>

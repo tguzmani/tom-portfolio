@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto">
         <FadeIn>
           {personal.available && (
-            <div className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 mb-6 border border-neutral-200 dark:border-neutral-800 rounded-full px-3 py-1">
+            <div className="inline-flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-400 mb-6 border border-neutral-200 dark:border-neutral-800 rounded-full px-3 py-1">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
@@ -21,13 +21,20 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-            {personal.name}
-          </h1>
+          <div className="flex items-center gap-5">
+            <img
+              src="/tom-pp.png"
+              alt={personal.name}
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover"
+            />
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
+              {personal.name}
+            </h1>
+          </div>
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <p className="mt-3 text-lg sm:text-xl text-neutral-600 dark:text-neutral-400">
+          <p className="mt-3 text-lg sm:text-xl text-neutral-700 dark:text-neutral-400">
             {personal.title}
           </p>
           <p className="mt-1 text-lg sm:text-xl text-neutral-500 dark:text-neutral-500">
@@ -41,7 +48,7 @@ export default function Hero() {
               href={personal.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <GitHubIcon size={18} />
               GitHub
@@ -50,21 +57,21 @@ export default function Hero() {
               href={personal.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <LinkedInIcon size={18} />
               LinkedIn
             </a>
             <a
               href={`mailto:${personal.email}`}
-              className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <Mail size={18} />
               Email
             </a>
             <a
               href="/cv.pdf"
-              download
+              download="Tomas Guzman - CV.pdf"
               className="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-md bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-opacity"
             >
               <Download size={16} />

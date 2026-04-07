@@ -24,7 +24,9 @@ export interface Project {
   tech: string[];
   url?: string;
   github?: string;
+  image?: string;
   featured: boolean;
+  status: "live" | "coming-soon" | "private";
 }
 
 export type Skills = Record<string, string[]>;

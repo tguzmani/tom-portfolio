@@ -6,10 +6,12 @@ export const personal: PersonalInfo = {
   tagline: "Turning ideas into products, fast.",
   email: "tomasg92@gmail.com",
   linkedin: "https://linkedin.com/in/tguzmani",
-  github: "https://github.com/tomasg",
+  github: "https://github.com/tguzmani",
   location: "Caracas, Venezuela",
   available: true,
-  about: `Fullstack Developer with 7+ years of experience building web applications across the entire stack. Specialized in **React**, **TypeScript**, and **NestJS** with deep experience in real-time communication systems including **WebRTC**, **SIP/PSTN** integration, and **WebSockets**.
+  about: `Fullstack Developer with 7+ years of experience building web applications from the ground up. I specialize in turning ideas into deployed products fast — integrating payments, auth, scheduling, real-time features, and third-party APIs into clean, maintainable architectures.
 
-Proven ability to reduce codebase complexity, deliver features in fast-paced environments, and work across frontend and backend as needed.`,
+My core stack is **React**, **TypeScript**, and **NestJS**, but I've shipped production code in **PHP/Laravel**, **Python/Flask**, and **Vue.js**. I make balanced decisions between code quality and delivery speed — clean enough to scale, fast enough to ship.
+
+I've led teams, owned technical decisions end-to-end, and built products across fintech, real-time communication, e-commerce, and creator economy platforms.`,
 };

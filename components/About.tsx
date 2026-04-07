@@ -10,7 +10,7 @@ function renderMarkdown(text: string) {
     return (
       <p
         key={i}
-        className="text-neutral-600 dark:text-neutral-400 leading-relaxed"
+        className="text-neutral-700 dark:text-neutral-400 leading-relaxed"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );

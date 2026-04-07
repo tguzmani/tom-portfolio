@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
+import LogoIcon from "./LogoIcon";
 
 const links = [
   { label: "About", href: "#about" },
@@ -20,9 +21,10 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
         <a
           href="#"
-          className="font-mono text-sm font-semibold tracking-tight"
+          className="flex items-center gap-2 font-semibold text-sm tracking-tight hover:opacity-80 transition-opacity"
         >
-          TG
+          <LogoIcon size={22} />
+          <span className="hidden sm:inline">Tomás Guzmán</span>
         </a>
 
         {/* Desktop */}
@@ -31,7 +33,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+              className="text-sm text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               {l.label}
             </a>
@@ -59,7 +61,7 @@ export default function Navbar() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="block px-6 py-3 text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+              className="block px-6 py-3 text-sm text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               {l.label}
             </a>
