@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Tomás Guzmán — Fullstack Developer";
+export const alt = "Tomás Guzmán — Software Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -36,7 +36,7 @@ export default function OGImage() {
             marginTop: 16,
           }}
         >
-          Fullstack Developer
+          Software Engineer
         </div>
         <div
           style={{

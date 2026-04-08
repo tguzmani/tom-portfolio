@@ -16,11 +16,11 @@ const url = "https://tguzmani.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
-  title: "Tomás Guzmán — Fullstack Developer",
+  title: "Tomás Guzmán — Software Engineer",
   description:
-    "Fullstack developer specializing in React, TypeScript, NestJS, and Laravel.",
+    "Software Engineer specializing in React, TypeScript, NestJS, and Laravel.",
   openGraph: {
-    title: "Tomás Guzmán — Fullstack Developer",
+    title: "Tomás Guzmán — Software Engineer",
     description:
       "Turning ideas into products, fast.",
     url,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tomás Guzmán — Fullstack Developer",
+    title: "Tomás Guzmán — Software Engineer",
     description:
       "Turning ideas into products, fast.",
   },
