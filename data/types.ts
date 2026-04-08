@@ -25,6 +25,7 @@ export interface Project {
   url?: string;
   github?: string;
   image?: string;
+  icon?: string;
   featured: boolean;
   status: "live" | "coming-soon" | "private";
 }

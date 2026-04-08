@@ -30,9 +30,25 @@ export default function Projects() {
               delay={i * 0.05}
               className={project.featured ? "sm:col-span-2" : ""}
             >
-              <div className="group rounded-lg border border-neutral-200 dark:border-neutral-800 p-5 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors h-full">
+              <div className="group rounded-lg border border-neutral-200 dark:border-neutral-800 p-5 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors h-full flex flex-col">
+                {/* {project.image && (
+                  <div className="mb-4 -mx-5 -mt-5 overflow-hidden rounded-t-lg">
+                    <img
+                      src={project.image}
+                      alt={`${project.name} preview`}
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                )} */}
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <div className="flex items-center gap-2">
+                    {project.icon && (
+                      <img
+                        src={project.icon}
+                        alt={`${project.name} icon`}
+                        className="w-5 h-5 rounded"
+                      />
+                    )}
                     <h3 className="font-semibold">{project.name}</h3>
                     <span className="inline-flex items-center gap-1.5 text-xs text-neutral-500">
                       <span

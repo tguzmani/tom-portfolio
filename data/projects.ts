@@ -6,7 +6,6 @@ export const projects: Project[] = [
     description:
       'Platform for scheduling, paying, and managing English lessons. Microservices architecture with real-time scheduling and payment processing.',
     tech: ['Next.js', 'NestJS', 'Nx', 'Supabase', 'PostgreSQL', 'Stripe'],
-    image: '/img/projects/talkive.png',
     featured: true,
     status: 'coming-soon',
   },
@@ -15,7 +14,8 @@ export const projects: Project[] = [
     description:
       'Content monetization platform for illustrators and designers targeting the US market. Built from scratch as Tech Lead.',
     tech: ['PHP', 'Laravel', 'Stripe', 'Blade', 'Livewire', 'jQuery'],
-    image: '/img/projects/akivva.png',
+    image: '/img/portfolio/akivva.png',
+    icon: '/img/portfolio/akivva-icon.svg',
     featured: true,
     status: 'live',
     url: 'https://akivva.com/',
@@ -25,7 +25,6 @@ export const projects: Project[] = [
     description:
       'Invoicing SaaS for SMBs. Automated billing, payment tracking, and event-driven PDF generation.',
     tech: ['Flask', 'Firebase', 'Celery', 'Redis', 'Docker'],
-    image: '/img/projects/billar.png',
     featured: true,
     status: 'coming-soon',
   },
@@ -34,7 +33,10 @@ export const projects: Project[] = [
     description:
       'Job application tracker with OAuth authentication and real-time updates.',
     tech: ['Angular', 'Firebase', 'OAuth', 'Firestore'],
-    image: '/img/projects/jobbr.png',
+    image: '/img/portfolio/jobbr.png',
+    icon: '/img/portfolio/jobbr-icon.png',
+    url: 'https://jobbr-81620.web.app',
+    github: 'https://github.com/tguzmani/jobbr',
     featured: false,
     status: 'live',
   },
@@ -43,7 +45,6 @@ export const projects: Project[] = [
     description:
       'Personal finance Telegram bot with bank integrations, crypto tracking, OCR receipt scanning, LLM-powered insights, and automated charts.',
     tech: ['Telegram', 'Binance API', 'OCR', 'LLMs', 'Charts', 'Node.js'],
-    image: '/img/projects/finances-bot.png',
     featured: false,
     status: 'private',
   },
@@ -53,7 +54,7 @@ export const projects: Project[] = [
       'This site. Built with Next.js, Tailwind CSS, and Framer Motion.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com/tguzmani/tom-portfolio',
-    image: '/img/projects/portfolio.png',
+    icon: '/img/portfolio/portfolio-icon.svg',
     featured: false,
     status: 'live',
   },
