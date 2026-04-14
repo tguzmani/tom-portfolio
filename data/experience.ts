@@ -2,6 +2,14 @@ import { Experience } from "./types";
 
 export const experience: Experience[] = [
   {
+    company: "Talkive",
+    role: "Tech Lead",
+    period: "Mar 2026 – Present",
+    description:
+      "Built an MVP platform for scheduling English lessons, featuring real-time booking, payment processing, and lesson management. Architected the system using a microservices approach with NestJS and Next.js in an Nx monorepo.",
+    tech: ["Next.js", "NestJS", "Nx", "Supabase", "PostgreSQL", "Stripe"],
+  },
+  {
     company: "Akivva",
     role: "Tech Lead",
     period: "Jan 2025 – Present",

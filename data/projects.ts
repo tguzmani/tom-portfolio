@@ -6,8 +6,9 @@ export const projects: Project[] = [
     description:
       'Platform for scheduling, paying, and managing English lessons. Microservices architecture with real-time scheduling and payment processing.',
     tech: ['Next.js', 'NestJS', 'Nx', 'Supabase', 'PostgreSQL', 'Stripe'],
+    url: 'https://talkive.co',
     featured: true,
-    status: 'coming-soon',
+    status: 'live',
   },
   {
     name: 'Akivva',
@@ -21,14 +22,6 @@ export const projects: Project[] = [
     url: 'https://akivva.com/',
   },
   {
-    name: 'Billar',
-    description:
-      'Invoicing SaaS for SMBs. Automated billing, payment tracking, and event-driven PDF generation.',
-    tech: ['Flask', 'Firebase', 'Celery', 'Redis', 'Docker'],
-    featured: true,
-    status: 'coming-soon',
-  },
-  {
     name: 'Jobbr',
     description:
       'Job application tracker with OAuth authentication and real-time updates.',
@@ -37,8 +30,16 @@ export const projects: Project[] = [
     icon: '/img/portfolio/jobbr-icon.png',
     url: 'https://jobbr-81620.web.app',
     github: 'https://github.com/tguzmani/jobbr',
-    featured: false,
+    featured: true,
     status: 'live',
+  },
+  {
+    name: 'Billar',
+    description:
+      'Invoicing SaaS for SMBs. Automated billing, payment tracking, and event-driven PDF generation.',
+    tech: ['Flask', 'Firebase', 'Celery', 'Redis', 'Docker'],
+    featured: false,
+    status: 'coming-soon',
   },
   {
     name: 'Tom-Finances-Bot',
