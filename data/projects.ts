@@ -11,20 +11,9 @@ export const projects: Project[] = [
     status: 'live',
   },
   {
-    name: 'Akivva',
-    description:
-      'Content monetization platform for illustrators and designers targeting the US market. Built from scratch as Tech Lead.',
-    tech: ['PHP', 'Laravel', 'Stripe', 'Blade', 'Livewire', 'jQuery'],
-    image: '/img/portfolio/akivva.png',
-    icon: '/img/portfolio/akivva-icon.svg',
-    featured: true,
-    status: 'live',
-    url: 'https://akivva.com/',
-  },
-  {
     name: 'Jobbr',
     description:
-      'Job application tracker with OAuth authentication and real-time updates.',
+      'Production job-application tracker. OAuth, dashboard, task management per application, keyboard shortcuts, and a salary calculator across hour/month/year.',
     tech: ['Angular', 'Firebase', 'OAuth', 'Firestore'],
     image: '/img/portfolio/jobbr.png',
     icon: '/img/portfolio/jobbr-icon.png',
@@ -34,20 +23,31 @@ export const projects: Project[] = [
     status: 'live',
   },
   {
-    name: 'Billar',
+    name: 'Zaria AI',
     description:
-      'Invoicing SaaS for SMBs. Automated billing, payment tracking, and event-driven PDF generation.',
-    tech: ['Flask', 'Firebase', 'Celery', 'Redis', 'Docker'],
-    featured: false,
-    status: 'coming-soon',
+      'Multi-channel sales agent in Python (LangChain, LangGraph, LangFuse). Tool calling for inventory lookup, lead capture, payment parsing via text and image OCR, and delivery/payment routing. Deployed as a Telegram bot.',
+    tech: ['Python', 'LangChain', 'LangGraph', 'LangFuse', 'OCR', 'Telegram'],
+    featured: true,
+    status: 'private',
   },
   {
-    name: 'Tom-Finances-Bot',
+    name: 'Flowstate AI',
     description:
-      'Personal finance Telegram bot with bank integrations, crypto tracking, OCR receipt scanning, LLM-powered insights, and automated charts.',
-    tech: ['Telegram', 'Binance API', 'OCR', 'LLMs', 'Charts', 'Node.js'],
-    featured: false,
+      'Scheduling agent in NestJS (LangChain, LangGraph, LangSmith). Captures leads, generates work quotes and estimates, and books jobs through tool calls.',
+    tech: ['NestJS', 'LangChain', 'LangGraph', 'LangSmith', 'TypeScript'],
+    featured: true,
     status: 'private',
+  },
+  {
+    name: 'Akivva',
+    description:
+      'Content monetization platform for illustrators and designers targeting the US market. Built from scratch as Tech Lead.',
+    tech: ['PHP', 'Laravel', 'Stripe', 'Blade', 'Livewire', 'jQuery'],
+    image: '/img/portfolio/akivva.png',
+    icon: '/img/portfolio/akivva-icon.svg',
+    url: 'https://akivva.com/',
+    featured: false,
+    status: 'live',
   },
   {
     name: 'Portfolio',

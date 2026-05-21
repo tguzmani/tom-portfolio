@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tomás Guzmán — Software Engineer",
     description:
-      "Turning ideas into products, fast.",
+      "I help you decide what's worth building.",
     url,
     siteName: "Tomás Guzmán",
     type: "website",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tomás Guzmán — Software Engineer",
     description:
-      "Turning ideas into products, fast.",
+      "I help you decide what's worth building.",
   },
 };
 
@@ -47,7 +47,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} dark`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }

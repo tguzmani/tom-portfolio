@@ -25,9 +25,11 @@ export default function Experience() {
                     {exp.period}
                   </span>
                 </div>
-                <p className="text-sm text-neutral-700 dark:text-neutral-400 mb-3">
-                  {exp.description}
-                </p>
+                <ul className="list-disc pl-5 text-sm text-neutral-700 dark:text-neutral-400 mb-3 space-y-1.5 marker:text-neutral-400 dark:marker:text-neutral-600">
+                  {exp.bullets.map((b, j) => (
+                    <li key={j}>{b}</li>
+                  ))}
+                </ul>
                 <div className="flex flex-wrap gap-1.5">
                   {exp.tech.map((t) => (
                     <span

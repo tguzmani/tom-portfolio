@@ -45,7 +45,7 @@ export default function OGImage() {
             marginTop: 8,
           }}
         >
-          Turning ideas into products, fast.
+          I help you decide what&apos;s worth building.
         </div>
       </div>
     ),
